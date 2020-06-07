@@ -1,0 +1,47 @@
+---
+layout: default
+title: Updates
+categories: []
+tags: []
+---
+
+<div class="clear"></div>
+
+<!-- post list -->
+{% for post in paginator.posts %}
+<a href="{{post.url | prepend: site.baseurl}}">
+    <div class="updates-wrapper">
+        <div class="updates-link">
+            <div class="updates-img-wrapper">{% if post.img %}<img class="updates-img" src="{{post.img}}" />{% endif %}</div>
+            <div class="updates-title-wrapper"><span class="updates-title-wrapper-span">{{post.title}}</span></div>
+        </div>
+    </div>
+</a>
+{% endfor %}
+
+<!-- pagination -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    {% else %}
+    <span>&laquo; Prev</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+    <span class="post-page">{{ page }}</span>
+    {% elsif page == 1 %}
+    <a href="/">{{ page }}</a>
+    {% else %}
+    <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    {% else %}
+    <span>Next &raquo;</span>
+    {% endif %}
+</div>
+{% endif %}

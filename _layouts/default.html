@@ -1,0 +1,48 @@
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Kendall Square – Fairfax, VA – {{ page.title }}</title>
+    <link rel="stylesheet" id="style-css" href="/static/css/style.css" type="text/css" media="all">
+    <link rel="shortcut icon" href="/static/img/favicon.ico">
+</head>
+<body class="home blog" style="">
+<div class="main-container">
+    <div class="container_24">
+        <div class="grid_24">
+            <div class="main-content">
+                <!--Start Header-->
+                <div class="header">
+                    <div class="logo">
+                        <a href="https://kendallsquarefairfax.com">
+                            <img src="/static/img/Banner.jpg" alt="Kendall Square Logo">
+                        </a>
+                    </div>
+                </div>
+                <!--End Header-->
+                <div class="clear"></div>
+
+                {% include menu.html %}
+                
+                <!-- Content -->
+                <section>
+                    {{ content }}
+                </section>
+                <!-- End Content -->
+                
+                <div class="clear"></div>
+
+            </div>
+            
+            <div class="clear"></div>
+            
+            <!--End Index-->
+
+            {% include footer.html %}
+            
+        </div>
+    </div>
+
+
+</body>
+
+</html>
