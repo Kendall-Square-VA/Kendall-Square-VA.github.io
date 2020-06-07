@@ -1,8 +1,14 @@
 .slider-wrapper {
     width: 950px;
     height: 400px;
-    background: url(/static/img/slide-shadow.png) 85px 334px no-repeat;
+    background-image: url(/static/img/slide-shadow.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    /*background-size: 334px;*/
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
     margin-bottom: 0px;
+    /*background-position-y: 3px;*/
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "Museo 500";
@@ -91,7 +97,7 @@ ul {
 body {
     font-family: "Trebuchet MS";
     font-size: 14px;
-    #color: #4d4d4d;
+    /*#color: #4d4d4d;*/
     background: url(/static/img/pattern-image.png);
 }
 .text-featute .text-featute-one, .text-featute .text-featute-two {
@@ -292,7 +298,7 @@ th, td, caption {
 }
 
 section {
-    padding: 10;
+    padding: 10px;
 }
 
 .pagination a, .pagination span {
@@ -302,13 +308,6 @@ section {
     margin-right: -2px;
     background-color: #ffffff;
     display: inline-block;
-}
-
-.pagination a {
-&:hover {
-     background-color: #f1f1f1;
-     color: #333;
- }
 }
 
 .pagination {

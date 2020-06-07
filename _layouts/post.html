@@ -4,10 +4,14 @@ layout: default
 
 <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-date">{{ page.author }} posted on {{ page.date }}</div>
 </header>
+<p>
+    {% if page.img %}<img class="updates-img" src="{{page.img}}" />{% endif %}
+</p>
 <p>
     {{ content }}
 </p>
-<footer>
-    <div class="post-date">{{ page.author }} posted on {{ page.date }}</div>
-</footer>
+
+We want to encourage community spirit. Want to get involved with the community or have a question? Please
+contact us <a href=""mailto:home@kendalsquare.com">via email</a> or via the <a href="/forum">community forum</a>.

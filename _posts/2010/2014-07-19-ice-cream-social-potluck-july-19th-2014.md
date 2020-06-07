@@ -11,7 +11,3 @@ tags: []
 * July 19 Pot Luck Community Party in Cedar Farm Circle Courtyard - Saturday July 19, 6pm
 * Please bring appetizer food or drinks that you would like to share with others
 * Ice cream dessert for children will be provided. Coolers to keep the ice cream cold and tables for the food are needed
-
-We want to encourage community spirit. Want to get involved with the community or have a question? Please 
-contact us [via email](mailto:home@kendalsquare.com) or via the [community forum](/forum)
-

@@ -10,6 +10,3 @@ categories:
 * **When:** Thursday October 18, 2016 @ 6:45 pm
 * **Where:** Kendall Square Courtyard
 * **What:** Board meetings are open to all property owners
-
-We want to encourage community spirit. Want to get involved with the community or have a question? Please 
-contact us [via email](mailto:home@kendalsquare.com) or via the [community forum](/forum)

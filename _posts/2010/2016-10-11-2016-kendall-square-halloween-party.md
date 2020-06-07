@@ -15,6 +15,3 @@ tags: []
   * Kids come trick or treat in your Halloween costume</li>
   * Appetizer food and drinks will be provided</li>
 
-
-We want to encourage community spirit. Want to get involved with the community or have a question? Please 
-contact us [via email](mailto:home@kendalsquare.com) or via the [community forum](/forum)

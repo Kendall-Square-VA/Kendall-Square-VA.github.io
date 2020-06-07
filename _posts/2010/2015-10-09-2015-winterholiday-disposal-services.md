@@ -11,5 +11,3 @@ categories:
 We have received the updated Winter schedule from American Disposal Services. 
 [Click here](/static//files/2015-holiday_disposal_notice.pdf) to read the publication! 
 
-We want to encourage community spirit. Want to get involved with the community or have a question? Please 
-contact us [via email](mailto:home@kendalsquare.com) or via the [community forum](/forum)

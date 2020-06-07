@@ -20,6 +20,3 @@ tags: []
 * This also includes voting for HOA positions.  If you can't make it, download the 
 [Proxy vote form](/static/files/2015-Annual-Meeting-Proxy.pdf)!
 Just send it to us [via email](mailto:home@kendalsquare.com).
-
-We want to encourage community spirit. Want to get involved with the community or have a question? Please 
-contact us [via email](mailto:home@kendalsquare.com) or via the [community forum](/forum)

@@ -10,7 +10,3 @@ categories:
 * **When:** Thursday January 21, 2016 @ 7pm
 * **Where:** 9620 Black Maple Dr
 * Board meetings are open to all property owners
-
-We want to encourage community spirit. Want to get involved with the community or have a question? Please 
-contact us [via email](mailto:home@kendalsquare.com) or via the [community forum](/forum)
-

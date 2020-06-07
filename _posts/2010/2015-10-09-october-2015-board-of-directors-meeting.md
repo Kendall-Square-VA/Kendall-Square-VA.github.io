@@ -11,6 +11,3 @@ categories:
 * **When:** Thursday October 15, 2015 @ 7pm
 * **Where:** 3122 Blue Barn Way
 * Board meetings are open to all property owners.</p>
-
-We want to encourage community spirit. Want to get involved with the community or have a question? Please 
-contact us [via email](mailto:home@kendalsquare.com) or via the [community forum](/forum)

@@ -13,6 +13,3 @@ categories:
 * **What:**
   * Please bring your favorite food to share.
   * Drinks will be provided
-
-We want to encourage community spirit. Want to get involved with the community or have a question? Please 
-contact us [via email](mailto:home@kendalsquare.com) or via the [community forum](/forum)

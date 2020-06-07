@@ -15,6 +15,3 @@ at 4:00pm (sign-in begins at 3:45pm) at Cedar Farm Circle Courtyard.  This meet
 the association.
 
 **Food and beverages will be provided!**
-
-We want to encourage community spirit. Want to get involved with the community or have a question? Please 
-contact us [via email](mailto:home@kendalsquare.com) or via the [community forum](/forum)
