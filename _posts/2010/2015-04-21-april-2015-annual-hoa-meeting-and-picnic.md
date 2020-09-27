@@ -5,9 +5,10 @@ author: Justin Grant
 date: '2015-04-21 14:20:37 -0400'
 img: /static/img/2010/picnic-basket-300x200.jpg
 categories:
-- Board Meetings
-- Parties
+  - Board Meetings
+  - Parties
 tags: []
+published: true
 ---
 * **When:** Saturday April 25, 2014 from 3:30pm - 5:30pm
 * **Where:** Kendall Square Courtyard

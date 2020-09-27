@@ -2,7 +2,79 @@
 
 This is the repository for the website owned by Kendall Square HOA in Fairfax VA 
 
-## How to create a post
+## Understanding what this is
+
+This repository hosts the code for a website, which is hosted at https://kendallsquarefairfax.com.
+To update this code, either contact [Justin Grant](mailto:jlgrock@gmail.com) or a 
+contractor that can help to edit HTML, CSS, and Ruby.  This is a Jekyll Site,
+ hosted as a [GitHub Page](https://pages.github.com/) for the
+[Kendall-Square-VA Group](https://github.com/Kendall-Square-VA) as this is free 
+and the static nature of this means that we will never need to worry about platform 
+or database attacks by hackers.  Similarly, we do not require to purchase or deal
+with a 3rd party SSL certificates, as this is being managed by GitHub itself.  Basically,
+this site was designed to reduce headache and maintenance.
+
+## Changes
+
+Being that this account has already been set up, any minor changes should be able to be 
+performed with nearly anyone with programming experience.  Significant may incur cost from shifting from this 
+platform to another.  Active maintenance of this `README.md` is suggested to 
+reflect any changes for future use.
+
+To make edits, you can use [Prose](http://prose.io/), which will let you edit these files on
+GitHub directly via the web browser.  Make sure to grant access to the `Kendall-Square-VA` group the first 
+time it asks.
+
+For more advanced editing, it is suggested you either use something like Sublime Text or an
+IDE such as VSCode or IntelliJ to edit this code locally, as it can help you find problems
+early in the process.
+
+## Key resources
+
+This section will cover the important sections in the code and how it is organized.
+In general, any folder starting with an underscore, such as `_includes`, `_layouts`, and `_posts`
+will not be available in the output.
+
+### Static Resources
+
+For the unchanging files that you would like to be available to end-users, it is suggested 
+to put them in the folder `static`.  These will be available from the website with a relative path
+of `/static`.
+
+The main groups of files are the following:
+* CSS - Stylesheets for making the website look good.
+* Images - The images used for the posts, as well as everything else, are in the folder `static/images`.
+To add a new one, it is suggested you follow the format `static/img/[Decade]-[Name].[jpg/png/gif]`.
+For example, if I want to create an image for the post on August 24, 2016, with the title 
+"Just a Post", I could put it in `static/img/2016/mypic.png`.  This grouping is just to reduce overall 
+clutter and allow for later cleanup.  For images not used in posts, it's suggested to put 
+them at the path `static/img/`
+* Files - Any other static files, like pdfs, that allow the user to open/download.
+
+### Layouts
+Defined in the `_layouts` folder, these are html files with Ruby variables that will be resolved.
+
+There are 3 layouts
+* `_layouts/default.html` - includes the page header and footer, as well as any
+* `_layouts/page.html` - Extends the default template to print a title on the page
+* `_layouts/post.html` - extends the default template to loop through all posts and 
+creates a simple box with the image representing it and the title so that it can be clicked into
+
+### Drafts
+
+A place to keep posts or layouts that aren't ready for primetime.  They will not be published anywhere,
+but they will live in version control.
+
+### Posts
+Defined in the `_posts` folder, this contains subfolders for each decade.  This is just to
+minimize the number of files.  Each markdown file (with the extension `.md`) is a text file
+following [markdown conventions](https://guides.github.com/features/mastering-markdown/).
+These files should follow the naming convention of `[Decade]/[YYYY]-[MM]-[DD]-[Title(spaces replaced by dashes)].md`.  
+For example, for a post on August 24, 2016, with the title "Just a Post" it should be at the location 
+`2010/2016-08-24-Just-a-Post`.
+
+As creating a post is the most common component, the following steps 
+have been defined to help create a post:
 1. Check out the code using [git](https://git-scm.com), or open a browser to github so 
 you can add a file via the browser.
 2. If there is an image you plan on using please put this into the `/static/img/` folder.
@@ -17,17 +89,19 @@ markdown files for examples.
     ```
     layout: post
     title: Board of Directors Meeting
-    author: Cordell Ratner
+    author: Frank Smith
     date: '2014-07-09 22:59:25 -0400'
     img: /static/img/2010/kendall_square-399x224.jpg
     categories:
     - Board Meetings
     tags: []
+    published: true
     ```
 
 6. Add the following to the next line of the file: `---`
 7. Now, fill in the content that you would like to provide for an update.
 8. Commit your changes to Github.
+
 
 ## Testing your site before you commit
 Sometimes, you are doing something a little more interesting and would like to test it.  
@@ -35,12 +109,19 @@ To do this, you need to follow the
 [Jekyll Installation Instructions](https://jekyllrb.com/docs/).  At this point, you should be 
 able to run the following commands:
 
-1. Install all of the Ruby Gem dependencies
+1. Install all of the Ruby Gem dependencies for the installer
 
     `gem install bundler jekyll`
 
-2. Start the server.  If you make any changes to the files, they will be reflected immediately. 
+2. Install all of the Ruby Gem dependencies for the application
+
+    `bundler install`
+    
+3. Start the server using the command below.  You will be able to access this by accessing http://127.0.0.1:4000/
+
     `bundle exec jekyll serve`
+
+4. If you make any changes to the files, they will be reflected immediately.
 
 ## Additional Reading Material
 

@@ -5,8 +5,9 @@ author: Justin Grant
 date: '2014-10-16 11:27:09 -0400'
 img: /static/img/2010/pumpkins-314x224.jpg
 categories:
-- Parties
+  - Parties
 tags: []
+published: true
 ---
 * **When:** Saturday October 25, 2014 @ 3pm
 * **Where:** Cedar Farm Circle Courtyard

@@ -5,7 +5,8 @@ author: Justin Grant
 date: '2016-04-16 14:27:39 -0400'
 img: /static/img/2010/city-595x224.jpg
 categories:
-- Community
+  - Community
+published: true
 ---
 
 Fairfax Circle has been in the local news recently, and several of the board members have discussed 

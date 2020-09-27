@@ -4,7 +4,8 @@ title: January 2016 - Board of Directors Meeting
 author: Justin Grant
 date: '2016-01-21 17:35:26 -0500'
 categories:
-- Board Meetings
+  - Board Meetings
+published: true
 ---
 
 * **When:** Thursday January 21, 2016 @ 7pm

@@ -5,7 +5,8 @@ author: Justin Grant
 date: '2015-10-25 01:02:55 -0400'
 img: /static/img/2010/Candy_in_Damascus-595x224.jpg
 categories:
-- Parties
+  - Parties
+published: true
 ---
 * **When:** Saturday, October 31, 2015 @ 3pm
 * **Where:** Cedar Farm Circle Courtyard

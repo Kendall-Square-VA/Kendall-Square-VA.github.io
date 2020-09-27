@@ -5,7 +5,8 @@ author: Justin Grant
 date: '2016-04-08 15:58:44 -0400'
 img: /static/img/2010/spring-tree-595x224.jpg
 categories:
-- Board Meetings
+  - Board Meetings
+published: true
 ---
 
 The Annual Meeting for the Kendall Square Homeowners Association will be held on Saturday, April 30th, 2016 at 

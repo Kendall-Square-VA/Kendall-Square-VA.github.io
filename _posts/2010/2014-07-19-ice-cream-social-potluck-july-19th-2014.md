@@ -5,8 +5,9 @@ author: Cordell Ratner
 date: '2014-07-19 23:01:04 -0400'
 img: /static/img/2010/ice_cream-595x224.jpg
 categories:
-- Parties
+  - Parties
 tags: []
+published: true
 ---
 * July 19 Pot Luck Community Party in Cedar Farm Circle Courtyard - Saturday July 19, 6pm
 * Please bring appetizer food or drinks that you would like to share with others

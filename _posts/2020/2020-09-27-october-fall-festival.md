@@ -1,9 +1,9 @@
 ---
 layout: post
-title: October 2017 - Fall Festival and Happy Hour
+title: October 2020 - Halloween Social Distancing Party
 author: Justin Grant
-date: '2017-10-22 19:56:51 -0400'
-img: /static/img/2010/pumpkins-314x224.jpg
+date: '2020-09-27 11:15:51 -0400'
+img: /static/img/2020/halloween-994751_1280.jpg
 categories:
   - Parties
 published: true
@@ -11,14 +11,14 @@ published: true
 
 # Trick or Treat!
 
-* **When:** Saturday October 28 at 3pm (until everyone leaves)
+* **When:** Saturday October 24 at 3pm (until everyone leaves).  If the weather doesn't 
+support, we will use October 25 at 3pm as the backup.
 * **Where:** Cedar Farm Circle Courtyard
 * **What:**
+  * Board Elections
   * Children can dress up in their Halloween costumes to practice their trick or treating skills. Kids can help us 
 paint some festive pumpkins.
   * Everyone can come celebrate with your neighbors
   * Drinks and snack food will be provided.
 
 Happy Halloween!
-
-[Fall Festival Flyer Kendall Square 2017 color copy](/static/files/Fall-Festival-Flyer-Kendall-Square-2017-color-copy.pdf)

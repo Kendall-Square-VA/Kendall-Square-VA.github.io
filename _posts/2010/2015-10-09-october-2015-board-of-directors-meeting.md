@@ -5,7 +5,8 @@ author: Justin Grant
 date: '2015-10-09 22:54:12 -0400'
 img: /static/img/2010/thermidor23-400x224.jpg
 categories:
-- Board Meetings
+  - Board Meetings
+published: true
 ---
 
 * **When:** Thursday October 15, 2015 @ 7pm

@@ -5,7 +5,8 @@ author: Justin Grant
 date: '2015-10-09 22:11:10 -0400'
 img: /static/img/2010/Trash_bin.png
 categories:
-- Uncategorized
+  - Uncategorized
+published: true
 ---
 
 We have received the updated Winter schedule from American Disposal Services. 
