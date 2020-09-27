@@ -2,7 +2,7 @@
 layout: post
 title: October 2020 - Halloween Social Distancing Party
 author: Justin Grant
-date: '2020-09-27 12:22:51 -0400'
+date: '2020-09-27 12:29:51 -0400'
 img: /static/img/2020/halloween-994751_1280.jpg
 categories:
   - Parties
