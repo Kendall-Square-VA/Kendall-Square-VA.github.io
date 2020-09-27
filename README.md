@@ -29,6 +29,21 @@ For more advanced editing, it is suggested you either use something like Sublime
 IDE such as VSCode or IntelliJ to edit this code locally, as it can help you find problems
 early in the process.
 
+## Security Fixes
+
+Occasionally, GitHub will tell the board that there are security vulnerabilities.  These are also
+listed [here](https://github.com/Kendall-Square-VA/Kendall-Square-VA.github.io/security).
+In the event that a security patch has been made, the majority of the time, you just need to update 
+the fixed versions.  This can be done by executing the following command:
+
+1. Install all of the Ruby Gem dependencies for the installer
+
+    `gem install bundler jekyll`
+    
+2. Update the Ruby gemfile to the latest versions
+
+    `bundle update`
+ 
 ## Key resources
 
 This section will cover the important sections in the code and how it is organized.
