@@ -14,6 +14,10 @@ or database attacks by hackers.  Similarly, we do not require to purchase or dea
 with a 3rd party SSL certificates, as this is being managed by GitHub itself.  Basically,
 this site was designed to reduce headache and maintenance.
 
+This website posts updates to www.kendallsquarefairfax.com/feed.xml.
+Any new posts will be picked up with [IFTTT](https://ifttt.com/) and the notices will
+be published to the appropriate social media and google group accounts.
+
 ## Changes
 
 Being that this account has already been set up, any minor changes should be able to be 
@@ -34,7 +38,11 @@ early in the process.
 Occasionally, GitHub will tell the board that there are security vulnerabilities.  These are also
 listed [here](https://github.com/Kendall-Square-VA/Kendall-Square-VA.github.io/security).
 In the event that a security patch has been made, the majority of the time, you just need to update 
-the fixed versions.  This can be done by executing the following command:
+the fixed versions.  In many cases, GitHub will create a code change automatically, that can
+be accepted [here](https://github.com/Kendall-Square-VA/Kendall-Square-VA.github.io/pulls).  In
+some more complex cases, you may need to do this manually though.
+
+This can be manually done by executing the following commands:
 
 1. Install all of the Ruby Gem dependencies for the installer
 
