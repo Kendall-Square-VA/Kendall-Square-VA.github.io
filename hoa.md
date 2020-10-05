@@ -18,7 +18,7 @@ community activities.
 | President              | Cordell Ratner         |
 | Vice President         | David Coad             |
 | Treasurer              | Mengyu “Steve” Cai     |
-| Secretary              | Justin                 |
+| Secretary              | Justin Grant           |
 | Member at Large        | Sven Serpinski         |
 
 
