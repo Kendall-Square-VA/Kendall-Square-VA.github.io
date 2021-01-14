@@ -17,7 +17,7 @@ community activities.
 | ---------------------- | ---------------------- |
 | President              | Justin Grant           |
 | Vice President         | Sven Serspinski        |
-| Treasurer              | Shree Kandal           |
+| Treasurer              | Shree Kandel           |
 | Secretary              | Gloria Kim             |
 | Member at Large        | David Coad             |
 
