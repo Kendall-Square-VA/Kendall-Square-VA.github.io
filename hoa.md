@@ -15,11 +15,11 @@ community activities.
 
 | Position               | Name                   |
 | ---------------------- | ---------------------- |
-| President              | Cordell Ratner         |
-| Vice President         | David Coad             |
-| Treasurer              | Mengyu “Steve” Cai     |
-| Secretary              | Justin Grant           |
-| Member at Large        | Sven Serpinski         |
+| President              | Justin Grant           |
+| Vice President         | Sven Serspinski        |
+| Treasurer              | Shree Kandal           |
+| Secretary              | Gloria Kim             |
+| Member at Large        | David Coad             |
 
 
 Feel free to reach out to [the board](home@kendallsquare.com).  The board can provide you with Meeting Notes or 
