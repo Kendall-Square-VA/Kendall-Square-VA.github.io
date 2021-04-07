@@ -26,6 +26,9 @@ Please note that masks and social distancing are strongly suggested.  If you are
 you do not participate in this event and do any board elections via proxy vote, as has been mailed to every
 person in the neighborhood.
 
+If you can't make it, feel free to download the [proxy form](/static/files/2020-Annual-Meeting-Proxy.pdf), 
+which you can send us a [home@kendallsquarefairfax.com](mailto:home@kendallsquarefairfax.com) 
+
 Happy Halloween!
 
 Sincerely, 
