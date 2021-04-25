@@ -9,7 +9,7 @@ categories:
 published: true
 ---
 
-# Road Maintenance
+# Disposal
 
 We have received the updated Winter schedule from American Disposal Services. 
 [Click here](/static/files/2020-ADS-Holiday-Schedule.pdf) to read the publication! 
