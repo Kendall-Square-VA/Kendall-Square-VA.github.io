@@ -136,7 +136,7 @@ able to run the following commands:
 
     `gem install bundler jekyll`
 
-<<<<<<< Updated upstream
+
 2. Install all of the Ruby Gem dependencies for the application
 
     `bundler install`
@@ -146,10 +146,6 @@ able to run the following commands:
     `bundle exec jekyll serve`
 
 4. If you make any changes to the files, they will be reflected immediately.
-=======
-2. Start the server.  If you make any changes to the files, they will be reflected immediately. 
-    
-    `bundle exec jekyll serve`
 
 ## Updating Gemfile Dependencies
 Occasionally, it is suggested that you update the dependencies so that you are not exposed to any
@@ -160,8 +156,6 @@ Anyways, if this is the case, the most likely fix is to update your project.  Th
 following command:
 
     `bundle update`
-
->>>>>>> Stashed changes
 
 ## Additional Reading Material
 
