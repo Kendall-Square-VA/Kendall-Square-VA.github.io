@@ -23,8 +23,7 @@ support, we will use October 24 at 3pm as the backup.
   * Drinks and snack food will be provided.
 
 Please note that masks and social distancing are strongly suggested.  If you are at risk, it is suggested that
-you do not participate in this event and do any board elections via proxy vote, as has been mailed to every
-person in the neighborhood.
+you do not participate in this event.
 
 Happy Halloween!
 
