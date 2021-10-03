@@ -16,7 +16,7 @@ published: true
 support, we will use October 24 at 3pm as the backup.
 * **Where:** Cedar Farm Circle Courtyard
 * **What:**
-  * Board Elections
+  * Board Updates
   * Children can dress up in their Halloween costumes to practice their trick or treating skills. 
   * Kids can help us paint some festive pumpkins.
   * Everyone can come celebrate with your neighbors
