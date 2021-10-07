@@ -16,10 +16,10 @@ community activities.
 | Position               | Name                   |
 | ---------------------- | ---------------------- |
 | President              | Justin Grant           |
-| Vice President         | Sven Serspinski        |
-| Treasurer              | TBD 			          |
-| Secretary              | Gloria Kim             |
-| Member at Large        | David Coad             |
+| Vice President         | David Coad             |
+| Treasurer              | Steven Baker           |
+| Secretary              | Jess Erbs              |
+| Member at Large        | Gloria Kim             |
 
 
 Feel free to reach out to [the board](home@kendallsquare.com).  The board can provide you with Meeting Notes or 
