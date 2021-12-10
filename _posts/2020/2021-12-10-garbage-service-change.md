@@ -25,3 +25,4 @@ This week we are changing the trash and recycle service provider for the communi
 
 
 
+For information your new service, including the new schedule and instructions, please read [the following PDF](/static/files/2021-kendall-square-garbage-service-change.pdf).
