@@ -33,7 +33,52 @@ For more advanced editing, it is suggested you either use something like Sublime
 IDE such as VSCode or IntelliJ to edit this code locally, as it can help you find problems
 early in the process.
 
-## Security Fixes
+## Installing
+
+[](https://www.honeybadger.io/blog/rbenv-rubygems-bundler-path/)
+
+### Using Ruby Environment Manager and Bundler
+
+If you are editing multiple Ruby applications, with multiple versions Ruby and gems, it makes a lot of sense
+to use [Ruby Environment Manager (rbenv)](https://javierjulio.com/rbenv/).  The easiest way to accomplish this is
+by using [Homebrew](https://brew.sh) and typing the command:
+
+```bash
+brew install rbenv rbenv-bundler
+```
+
+Then you can run the following command to limit all Ruby and Gem installations to local directories prior to installing
+anything:
+
+```bash
+rbenv init
+```
+
+### Installing/Upgrading Ruby with Rbenv
+
+1. List all available versions:
+
+    `rbenv install -l`
+
+2. Install new versions (swap 2.6.5 for your version number):
+
+    `rbenv install 2.6.5`
+
+3. Sets a local application-specific Ruby version by writing the version name to a `.ruby-version`
+  
+    `rbenv local 2.6.5`
+
+4. Sets a shell-specific Ruby version by setting the RBENV_VERSION environment variable in your shell.
+
+    `rbenv shell 2.2.1`
+
+### Install Bunder and Jekyll
+
+Installing all of the Ruby Gem dependencies for the installer is pretty easy once you have your ruby set up:
+
+`gem install bundler jekyll`
+
+### Updating website to latest versions (usually to fix Security Problems)
 
 Occasionally, GitHub will tell the board that there are security vulnerabilities.  These are also
 listed [here](https://github.com/Kendall-Square-VA/Kendall-Square-VA.github.io/security).
@@ -42,15 +87,9 @@ the fixed versions.  In many cases, GitHub will create a code change automatical
 be accepted [here](https://github.com/Kendall-Square-VA/Kendall-Square-VA.github.io/pulls).  In
 some more complex cases, you may need to do this manually though.
 
-This can be manually done by executing the following commands:
+Update the Ruby gemfile to the latest versions with this command
 
-1. Install all of the Ruby Gem dependencies for the installer
-
-    `gem install bundler jekyll`
-    
-2. Update the Ruby gemfile to the latest versions
-
-    `bundle update`
+`bundle update`
  
 ## Key resources
 

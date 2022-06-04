@@ -5,7 +5,7 @@ author: Justin Grant
 date: '2021-06-18 15:31:15 -0400'
 img: /static/img/2020/5884967088_42c1469dd6_b.jpg
 categories:
-  - Uncategorized
+  - Parties
 published: true
 ---
 # Kendall Summer Picnic!!!
