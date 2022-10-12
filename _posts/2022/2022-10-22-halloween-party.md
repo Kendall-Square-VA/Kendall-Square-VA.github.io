@@ -9,7 +9,7 @@ categories:
 published: true
 ---
 
-* **When:** Wednesday October 22, 2022 @ 3:00 pm
+* **When:** Sunday October 22, 2022 @ 3:00 pm
 * **Where:** Kendall Square Courtyard
 * **What:** 
     *  Board Updates
