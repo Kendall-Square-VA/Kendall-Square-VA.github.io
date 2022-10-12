@@ -194,7 +194,7 @@ known security problems.  If you have a security vulnerability, it will show up
 Anyways, if this is the case, the most likely fix is to update your project.  This is done with the 
 following command:
 
-    `bundle update`
+    `bundle lock --update`
 
 ## Additional Reading Material
 
