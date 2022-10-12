@@ -69,7 +69,11 @@ GEM
       jekyll-theme-time-machine (= 0.2.0)
       jekyll-titles-from-headings (= 0.5.3)
       jemoji (= 0.12.0)
+<<<<<<< HEAD
       kramdown (= 2.3.2)
+=======
+      kramdown (= 2.3.0)
+>>>>>>> 07983eb3e65ea647b48876dd4ad2c7e209b169a4
       kramdown-parser-gfm (= 1.1.0)
       liquid (= 4.0.3)
       mercenary (~> 0.3)
@@ -256,6 +260,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   github-pages (~> 227)
