@@ -2,7 +2,7 @@
 layout: post
 title: 2023 Summer Picnic
 author: Justin Grant
-date: '2022-10-12 12:00:00 -0400'
+date: '2023-6-13 12:00:00 -0400'
 img: /static/img/2020/5884967088_42c1469dd6_b.jpg
 categories:
   - Board Meetings
