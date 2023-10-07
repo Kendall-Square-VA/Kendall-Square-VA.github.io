@@ -9,7 +9,7 @@ categories:
 published: true
 ---
 
-* **When:** Saturday, October 28, 2022 @ 3:00 pm
+* **When:** Saturday, October 28, 2023 @ 3:00 pm
 * **Where:** Kendall Square Courtyard
 * **What:** 
     * Board Elections
