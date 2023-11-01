@@ -15,11 +15,11 @@ community activities.
 
 | Position               | Name                   |
 | ---------------------- | ---------------------- |
-| President              | Justin Grant           |
-| Vice President         | David Coad             |
-| Treasurer              | Steven Baker           |
+| President              | David Coad             |
+| Vice President         | Zach Bashore           |
+| Treasurer              | Gregory Andrews        |
 | Secretary              | Jess Erbs              |
-| Member at Large        | Gregory Andrews        |
+| Member at Large        | Jin Lee                |
 
 
 Feel free to reach out to [the board](home@kendallsquare.com).  The board can provide you with Meeting Notes or 
