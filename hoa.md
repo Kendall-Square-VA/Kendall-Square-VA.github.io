@@ -22,6 +22,6 @@ community activities.
 | Member at Large        | Jin Lee                |
 
 
-Feel free to reach out to [the board](home@kendallsquare.com).  The board can provide you with Meeting Notes or 
+Feel free to reach out to [the board](home@kendallsquarefairfax.com).  The board can provide you with Meeting Notes or 
 HOA contract information.  For general community questions or concerns, it is suggested that you send an email to the 
 our community [Forum](https://groups.google.com/forum/#!forum/kendallsquare).
