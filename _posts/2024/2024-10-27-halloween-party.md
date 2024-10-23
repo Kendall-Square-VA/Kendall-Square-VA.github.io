@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oct 26, 2024 - Kendall Square Halloween Party
+title: Oct 27, 2024 - Kendall Square Halloween Party
 author: Justin Grant
 date: '2024-10-22 10:00:00 -0400'
 img: /static/img/2010/pumpkins-314x224.jpg
@@ -9,7 +9,7 @@ categories:
 published: true
 ---
 
-* **When:** Saturday, October 26, 2024 @ 2:00 pm
+* **When:** Sunday, October 27, 2024 @ 2:00 pm
 * **Where:** Kendall Square Courtyard
 * **What:** 
     * Board Elections
