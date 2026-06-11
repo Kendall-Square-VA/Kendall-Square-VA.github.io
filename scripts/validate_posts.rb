@@ -40,11 +40,13 @@ post_files.each do |file|
     errors << "#{file}: layout should be 'post'"
   end
 
+  # 'date' is the publish/announcement date; the filename date is the event date.
+  # A post is valid as long as it was published on or before the event date.
   begin
-    front_matter_date = Date.parse(data["date"].to_s)
-    filename_date = Date.parse(basename[0, 10])
-    if front_matter_date != filename_date
-      errors << "#{file}: filename date #{filename_date} does not match front matter date #{front_matter_date}"
+    publish_date = Date.parse(data["date"].to_s)
+    event_date   = Date.parse(basename[0, 10])
+    if publish_date > event_date
+      errors << "#{file}: publish date #{publish_date} is after event/filename date #{event_date}"
     end
   rescue Date::Error
     errors << "#{file}: invalid date in filename or front matter"
