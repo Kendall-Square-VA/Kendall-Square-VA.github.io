@@ -2,7 +2,7 @@
 layout: post
 title: Oct 22, 2022 - Kendall Square Halloween Party
 author: Justin Grant
-date: '2022-10-12 12:00:00 -0400'
+date: '2022-10-22 12:00:00 -0400'
 img: /static/img/2010/pumpkins-314x224.jpg
 categories:
   - Board Meetings

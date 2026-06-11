@@ -452,3 +452,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij+all,jekyll,eclipse,ruby,python,macos,windows
+
+node_modules/

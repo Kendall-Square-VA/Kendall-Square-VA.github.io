@@ -2,7 +2,7 @@
 layout: post
 title: Oct 27, 2024 - Kendall Square Halloween Party
 author: Justin Grant
-date: '2024-10-22 10:00:00 -0400'
+date: '2024-10-27 10:00:00 -0400'
 img: /static/img/2010/pumpkins-314x224.jpg
 categories:
   - Board Meetings
