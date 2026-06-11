@@ -90,9 +90,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
+
+      - name: Install Node dependencies
+        run: npm ci
 
       - name: Install Playwright browser
-        run: npx --yes playwright@1.54.2 install --with-deps chromium
+        run: npm run install-browsers
 
       - name: Run smoke tests
         run: |
@@ -107,4 +111,4 @@ jobs:
             sleep 1
           done
 
-          BASE_URL=http://127.0.0.1:4000 npx --yes playwright@1.54.2 test tests/smoke.spec.js --reporter=line --workers=1
+          BASE_URL=http://127.0.0.1:4000 npm test
