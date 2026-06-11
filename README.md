@@ -33,46 +33,48 @@ For more advanced editing, use VS Code or IntelliJ to work locally.
 
 ## Installing the toolchain
 
-The project requires **Ruby 3.3**, **Bundler**, and **Node 20**.
+The project requires **Ruby 3.3**, **Bundler 4+**, and **Node (LTS)**.
 
-### Ruby via Homebrew (recommended)
+### 1. Ruby via Homebrew
 
 ```bash
 brew install ruby@3.3
 ```
 
-Add Ruby 3.3 to your shell PATH (add to `~/.zshrc` or `~/.bash_profile`):
+Add Ruby 3.3 to your shell PATH. Add the following line to `~/.zshrc` (or `~/.bash_profile` for bash) and then open a new terminal:
 
 ```bash
 export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
 ```
 
-Open a new terminal and verify:
+Verify:
 
 ```bash
-ruby --version   # should show 3.3.x
-bundle --version
+ruby --version    # should print 3.3.x
+bundle --version  # should print Bundler 4.x
 ```
 
-### Node
-
-[Download Node 20+](https://nodejs.org/) or install via Homebrew:
+### 2. Node via Homebrew
 
 ```bash
 brew install node
 ```
 
-### Install Ruby dependencies
+Verify:
 
 ```bash
-bundle install
+node --version  # should print v20 or higher
+npm --version
 ```
 
-### Install Node dependencies and Playwright browser
+### 3. Install all dependencies
+
+Run both of these from the repository root. Only needs to be done once (and after any `bundle update` or `npm update`):
 
 ```bash
-npm install
-npm run install-browsers
+bundle install          # installs Ruby gems
+npm install             # installs Node packages and creates/updates package-lock.json
+npm run install-browsers  # downloads the Playwright Chromium browser for smoke tests
 ```
 
 ## Security updates
@@ -89,10 +91,10 @@ To update dependencies manually:
 bundle update
 ```
 
-To check for known CVEs locally:
+To check for known CVEs locally (install `bundler-audit` once if it is not already available):
 
 ```bash
-gem install bundler-audit
+gem install bundler-audit --no-document
 bundler-audit update && bundler-audit check .
 ```
  
@@ -171,31 +173,61 @@ To create a new post:
 bundle exec jekyll serve
 ```
 
-Access the site at http://127.0.0.1:4000/. Changes to most files are picked up
-automatically without restarting.
+Access the site at http://127.0.0.1:4000/. Changes to most files are reflected immediately without restarting the server.
 
 ## Running the test suite locally
 
-All four CI checks can be run locally:
+All four CI checks mirror what runs on every pull request. Run them in order:
+
+### 1. Front matter validation
+
+Checks every post has the required `layout`, `title`, and `date` fields, and that the publish date is not after the event date:
 
 ```bash
-# 1. Front matter validation
 ruby scripts/validate_posts.rb
+```
 
-# 2. Build the site
+### 2. Build the site
+
+Must be run before the link check and smoke tests:
+
+```bash
 bundle exec jekyll build
+```
 
-# 3. Internal link check
-bundle exec htmlproofer ./_site --checks Links --disable-external --allow-hash-href --allow-missing-href --no-enforce-https
+### 3. Internal link check
 
-# 4. Smoke E2E tests (requires the site to be pre-built)
+Scans the generated `_site/` for broken internal links:
+
+```bash
+bundle exec htmlproofer ./_site \
+  --checks Links \
+  --disable-external \
+  --allow-hash-href \
+  --allow-missing-href \
+  --no-enforce-https
+```
+
+### 4. Smoke E2E tests
+
+Starts a local HTTP server over the built site, runs Playwright tests against it, then shuts the server down:
+
+```bash
 python3 -m http.server 4000 --directory _site &
+SERVER_PID=$!
 BASE_URL=http://127.0.0.1:4000 npm test
-kill %1
+kill $SERVER_PID
+```
 
-# 5. Security audit
+> **Prerequisite:** make sure you have run `npm install` and `npm run install-browsers` at least once after cloning.
+
+### 5. Security audit
+
+```bash
 bundler-audit update && bundler-audit check .
 ```
+
+> If `bundler-audit` is not found, install it first: `gem install bundler-audit --no-document`
 
 ## Additional reading
 
