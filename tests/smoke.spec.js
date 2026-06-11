@@ -2,11 +2,11 @@ const { test, expect } = require('@playwright/test');
 
 const pages = [
   '/',
-  '/location/',
+  '/location.html',
   '/updates/',
-  '/hoa/',
-  '/forum/',
-  '/calendar/'
+  '/hoa.html',
+  '/forum.html',
+  '/calendar.html'
 ];
 
 test.describe('site smoke tests', () => {
