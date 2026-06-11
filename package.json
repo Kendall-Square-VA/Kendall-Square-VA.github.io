@@ -4,7 +4,7 @@
   "description": "Smoke tests for the Kendall Square HOA Jekyll site",
   "scripts": {
     "install-browsers": "playwright install --with-deps chromium",
-    "test": "playwright test tests/smoke.spec.js --reporter=line --workers=1"
+    "test": "playwright test"
   },
   "devDependencies": {
     "@playwright/test": "1.54.2"
