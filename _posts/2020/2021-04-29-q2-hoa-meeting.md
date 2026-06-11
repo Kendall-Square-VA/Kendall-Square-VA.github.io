@@ -2,7 +2,7 @@
 layout: post
 title: 2021 Q2 HOA Meeting
 author: Justin Grant
-date: '2021-04-24 12:42:51 -0500'
+date: '2021-04-29 12:42:51 -0500'
 img: /static/img/2020/outdoor_meeting.jpg
 categories:
   - Board Meetings

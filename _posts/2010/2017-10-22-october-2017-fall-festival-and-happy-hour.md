@@ -21,4 +21,4 @@ paint some festive pumpkins.
 
 Happy Halloween!
 
-[Fall Festival Flyer Kendall Square 2017 color copy](/static/files/Fall-Festival-Flyer-Kendall-Square-2017-color-copy.pdf)
+Fall Festival flyer (2017) was referenced in the original post but the file is no longer available in the site archive.

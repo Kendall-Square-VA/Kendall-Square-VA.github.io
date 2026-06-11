@@ -1,0 +1,12 @@
+{
+  "name": "kendall-square-va-site",
+  "private": true,
+  "description": "Smoke tests for the Kendall Square HOA Jekyll site",
+  "scripts": {
+    "install-browsers": "playwright install --with-deps chromium",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.54.2"
+  }
+}

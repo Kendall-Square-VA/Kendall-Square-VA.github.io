@@ -37,3 +37,7 @@ gem "sequel", "~> 5.33"
 gem "unidecode", "~> 1.0"
 
 gem "webrick", "~> 1.9"
+
+group :test do
+  gem "html-proofer", "~> 5.0"
+end

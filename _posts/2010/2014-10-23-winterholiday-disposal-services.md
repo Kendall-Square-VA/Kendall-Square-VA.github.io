@@ -10,5 +10,5 @@ published: true
 ---
 
 We have received the updated Winter schedule from American Disposal Services. 
-[Click here](/static/files/img-X16150818-0001.pdf) to read the publication! If you have any 
-questions, please feel free to post them to the [forums](/forums)
+[Click here](/static/files/img-X16150818-0001.pdf) to read the publication! If you have any
+questions, please feel free to post them to the [forums](/forum)
