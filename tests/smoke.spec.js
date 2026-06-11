@@ -31,7 +31,7 @@ test.describe('site smoke tests', () => {
     ];
 
     for (const link of navLinks) {
-      const locator = page.locator(`#menu a:has-text("${link.text}")`).first();
+      const locator = page.locator(`.site-nav a:has-text("${link.text}")`).first();
       await expect(locator).toBeVisible();
       await expect(locator).toHaveAttribute('href', link.href);
     }

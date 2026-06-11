@@ -1,8 +1,13 @@
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Kendall Square – Fairfax, VA – {{ page.title }}</title>
-    <link rel="stylesheet" id="style-css" href="/static/css/style.css" type="text/css" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kendall Square – Fairfax, VA{% if page.title %} – {{ page.title }}{% endif %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css" media="all">
     <link rel="shortcut icon" href="/static/img/favicon.ico">
     {% if page.img %}
     <meta property="og:image" content="{{ site.url }}/{{ page.img }}" />
@@ -12,46 +17,25 @@
     {% endif %}
     {% feed_meta %}
 </head>
-<body class="home blog" style="">
-<div class="main-container">
-    <div class="container_24">
-        <div class="grid_24">
-            <div class="main-content">
-                <!--Start Header-->
-                <div class="header">
-                    <div class="logo">
-                        <a href="https://kendallsquarefairfax.com">
-                            <img src="/static/img/Banner.jpg" alt="Kendall Square Logo">
-                        </a>
-                    </div>
-                </div>
-                <!--End Header-->
-                <div class="clear"></div>
+<body>
+<div class="site-wrapper">
 
-                {% include menu.html %}
-
-                <div class="clear"></div>
-
-                <!-- Content -->
-                <section>
-                    {{ content }}
-                </section>
-                <!-- End Content -->
-                
-                <div class="clear"></div>
-
-            </div>
-            
-            <div class="clear"></div>
-            
-            <!--End Index-->
-
-            {% include footer.html %}
-            
+    <header class="site-header">
+        <div class="logo">
+            <a href="/">
+                <img src="/static/img/Banner.jpg" alt="Kendall Square – Fairfax, VA">
+            </a>
         </div>
-    </div>
+    </header>
 
+    {% include menu.html %}
 
+    <main class="main-content">
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+</div>
 </body>
-
 </html>
