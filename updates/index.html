@@ -9,7 +9,7 @@ tags: []
 
 <!-- post list -->
 {% for post in paginator.posts %}
-<a href="{{post.url | prepend: site.baseurl}}">
+<a class="updates-card-link" href="{{post.url | prepend: site.baseurl}}">
     <div class="updates-wrapper">
         <div class="updates-link">
             <div class="updates-img-wrapper">{% if post.img %}<img class="updates-img" src="{{post.img}}" />{% endif %}</div>

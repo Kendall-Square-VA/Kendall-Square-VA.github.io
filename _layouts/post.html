@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<header class="post-header">
+<div class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
         {%- assign event_date = page.path | split: '/' | last | slice: 0, 10 -%}
@@ -10,15 +10,17 @@ layout: default
         {%- if event_date != publish_date %}
         <span class="post-event-date">Event date: {{ event_date }}</span> &nbsp;&mdash;&nbsp;
         {%- endif %}
-        <span class="post-publish-date">Published {{ page.date | date: "%B %-d, %Y" }} by {{ page.author }}</span>
+        <span class="post-publish-date">Published {{ page.date | date: "%B %-d, %Y" }}{% if page.author %} by {{ page.author }}{% endif %}</span>
     </div>
-</header>
-<p>
-    {% if page.img %}<img class="updates-img" src="{{page.img}}" />{% endif %}
-</p>
-<p>
-    {{ content }}
-</p>
+</div>
 
-We want to encourage community spirit. Want to get involved with the community or have a question? Please
-contact us <a href=""mailto:home@kendalsquare.com">via email</a> or via the <a href="/forum">community forum</a>.
+<div class="post-body">
+    {% if page.img %}<img class="updates-img" src="{{page.img}}" alt="{{ page.title }}">{% endif %}
+    {{ content }}
+</div>
+
+<div class="post-footer-cta">
+    Want to get involved or have a question? Reach out
+    <a href="mailto:home@kendallsquarefairfax.com">via email</a> or join the
+    <a href="/forum">community forum</a>.
+</div>

@@ -9,19 +9,41 @@ categories: []
 tags: []
 ---
 
-The Kendal Square Home Owners Association is a group of homeowners from the Kendal Square community that have been 
-elected to manage HOA laws, architectural and landscape decisions, management of maintenance, and organization of 
-community activities.
+The Kendall Square Home Owners Association is a group of elected homeowners who manage HOA
+governance, architectural and landscape decisions, common area maintenance, and community activities.
 
-| Position               | Name                   |
-| ---------------------- | ---------------------- |
-| President              | David Coad             |
-| Vice President         | Zach Bashore           |
-| Treasurer              | Gregory Andrews        |
-| Secretary              | Jess Erbs              |
-| Member at Large        | Jin Lee                |
+## Board of Directors
 
+| Position        | Name            |
+| --------------- | --------------- |
+| President       | David Coad      |
+| Vice President  | Zach Bashore    |
+| Treasurer       | Gregory Andrews |
+| Secretary       | Jess Erbs       |
+| Member at Large | Jin Lee         |
 
-Feel free to reach out to [the board](mailto:home@kendallsquarefairfax.com).  The board can provide you with Meeting Notes or 
-HOA contract information.  For general community questions or concerns, it is suggested that you send an email to the 
-our community [Forum](https://groups.google.com/forum/#!forum/kendallsquare).
+## Contact & Resources
+
+Reach out to [the board](mailto:home@kendallsquarefairfax.com) for:
+
+- Meeting minutes and HOA documents
+- Architectural Review Committee (ARC) requests
+- Maintenance and common area concerns
+- HOA governing documents and bylaws
+
+For general neighbor questions and community discussions, join the
+[community forum](https://groups.google.com/forum/#!forum/kendallsquare).
+
+## What the HOA Manages
+
+- **Common Areas** — landscaping, lighting, and upkeep of shared spaces and pathways
+- **Architectural Review** — approval for exterior modifications, additions, and improvements
+- **Community Events** — organizing seasonal gatherings and social activities
+- **Financial Oversight** — budgeting, dues collection, and reserve fund planning
+- **Maintenance Coordination** — vendor management for repairs and ongoing upkeep
+
+## Meetings
+
+The Board of Directors holds regular meetings open to all homeowners. Check the
+[community calendar](/calendar) for upcoming meeting dates, or contact the board to be added
+to the meeting notice mailing list.
