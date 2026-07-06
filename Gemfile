@@ -32,7 +32,7 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 
-gem "sequel", "~> 5.33"
+gem "sequel", "~> 5.106"
 
 gem "unidecode", "~> 1.0"
 
